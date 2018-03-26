@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6c8edb564494aa24386811ea00e4bc81
+timeCreated: 1521875119
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crackdown O1 BRK
+  fontNames:
+  - Crackdown O1 BRK
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
