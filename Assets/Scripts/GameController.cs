@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
@@ -33,16 +34,32 @@ public class GameController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate()
 	{
 		if (score > 0)
 		velocity = (float) ((float) (Math.Log10(score) + 2f) + (score / Math.Sqrt(score)));
 		scoreText.text = score.ToString();
+		
+		Vector3 pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+		RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero);
+		if (hit != null && hit.collider != null) {
+			if (hit.collider.CompareTag("Circle"))
+			{
+				Debug.Log("Score");
+				score++;
+				Destroy(hit.collider.gameObject);
+			}
+		}
 	}
 
 	public void GameOver()
 	{
-		return;
+		int oldHighscore = PlayerPrefs.GetInt("highscore", 0);
+		PlayerPrefs.SetInt("lastscore", score);
+		if (score > oldHighscore)
+			PlayerPrefs.SetInt("highscore", score);
+		Debug.Log(PlayerPrefs.GetInt("highscore"));
+		SceneManager.LoadScene(2);
 	}
 	
 }

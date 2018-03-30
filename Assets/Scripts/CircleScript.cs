@@ -14,11 +14,11 @@ public class CircleScript : MonoBehaviour {
 		
 	}
 
-	private void OnMouseDown()
-	{
-		GameController.instance.score++;
-		Debug.Log(GameController.instance.velocity);
-		Debug.Log(GameController.instance.score);
-		Destroy(this.gameObject);
-	}
+//	private void OnMouseDown()
+//	{
+//		GameController.instance.score++;
+//		Debug.Log(GameController.instance.velocity);
+//		Debug.Log(GameController.instance.score);
+//		Destroy(this.gameObject);
+//	}
 }
