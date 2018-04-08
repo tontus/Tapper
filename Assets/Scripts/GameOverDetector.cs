@@ -19,6 +19,7 @@ public class GameOverDetector : MonoBehaviour {
 		if (other.gameObject.CompareTag("Circle"))
 		{
 			Debug.Log("GAmeOver");
+			Destroy(other.gameObject);
 			GameController.instance.GameOver();
 		}
 	}
