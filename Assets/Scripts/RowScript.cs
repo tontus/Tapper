@@ -23,7 +23,15 @@ public class RowScript : MonoBehaviour
 
 	void ChangeCirclePosition()
 	{
-		int probability = Random.Range(1, 8);
+		int probability = 2;
+		if (GameController.instance.score > 4)
+		{
+			 probability = Random.Range(1, 8);
+		}
+		else
+		{
+			probability = Random.Range(2, 8);
+		}
 		if (probability > 1)
 		{
 			float newX = Random.Range(-2f, 2f);
