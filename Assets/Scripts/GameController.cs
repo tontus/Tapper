@@ -55,6 +55,7 @@ public class GameController : MonoBehaviour {
 				if (hit.collider.CompareTag("Circle"))
 				{
 					Debug.Log("Score");
+					AudioManager.instance.Play("Score");
 					score++;
 					Destroy(hit.collider.gameObject);
 				}

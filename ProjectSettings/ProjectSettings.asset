@@ -11,8 +11,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Tap Master
+  companyName: CafriGames
+  productName: Tapper
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -158,7 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.example.tapmaster
+    Android: com.cafriames.tapper
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -637,7 +637,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: f7dae172-b4ad-4874-b66c-8b5c0de304ce
-  projectName: google play game
+  projectName: tapper
   organizationId: dmitry-cafri
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
