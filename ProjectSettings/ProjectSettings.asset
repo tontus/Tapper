@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: CafriGames
-  productName: Tapper
+  productName: Tapper Free
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -39,7 +39,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: ddff224250941ec4796327cff5876d61, type: 3}
+  - logo: {fileID: 21300000, guid: d887226eb3476aa49a72644baee4b0c7, type: 3}
     duration: 3
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -160,7 +160,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.cafriames.tapperpro
+    Android: com.cafriames.tapperfree
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -263,7 +263,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: ddff224250941ec4796327cff5876d61, type: 3}
+      m_Icon: {fileID: 2800000, guid: d887226eb3476aa49a72644baee4b0c7, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

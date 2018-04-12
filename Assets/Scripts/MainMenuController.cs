@@ -31,4 +31,9 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void RemoveAds()
+    {
+        DataHelper.instance.RemoveAds();
+    }
 }

@@ -28,4 +28,10 @@ public class DataHelper : MonoBehaviour {
 	{
 		atempts = 0;
 	}
+
+	public void RemoveAds()
+	{
+		Debug.Log("ad removed");
+		Application.OpenURL ("market://details?id=com.cafriames.tapperpro");
+	}
 }
