@@ -67,14 +67,14 @@ public class GameController : MonoBehaviour {
 	{
 		Debug.Log(DataHelper.instance.atempts);
 		Time.timeScale = 0f;
-		if (DataHelper.instance.atempts == 3)
-		{
-			DataHelper.instance.atempts = 0;
-			if(Advertisement.IsReady("video"))
-				Advertisement.Show("video");
-		}
-
-		DataHelper.instance.atempts++;
+//		if (DataHelper.instance.atempts == 3)
+//		{
+//			DataHelper.instance.atempts = 0;
+//			if(Advertisement.IsReady("video"))
+//				Advertisement.Show("video");
+//		}
+//
+//		DataHelper.instance.atempts++;
 		if (!Advertisement.IsReady("rewardedVideo") || restored != 0)
 		{
 			ConfirmGameOver();
