@@ -25,3 +25,4 @@ sysinfo.txt
 *.exe
 *.apk
 .idea/
+*.zip
